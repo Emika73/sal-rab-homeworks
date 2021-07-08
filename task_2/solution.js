@@ -33,7 +33,7 @@ function calcDiscount(sum, min, discount) {
     // если productsSum больше или равно discountMinSum,
     // то присвойте discountPrice значение discountPart процентов от productsSum,
     // иначе присвойте discountPrice значения 0
-    If (productSum >= discountMinSum) {discountPrice = discountPart(productSum) };
+    If (productSum >= discountMinSum) {discountPrice = discountPart(productsSum) };
      else {discountPrice = 0};
     // Конец решения задания №2.2.
 
