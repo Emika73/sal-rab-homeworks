@@ -21,7 +21,7 @@ function calcShipping(sum, min, shipping) {
         shippingSum = shippingPrice};
     // Конец решения задания №2.1.
 
-    return shippingPrice;
+    return shippingSum;
 }
 
 function calcDiscount(sum, min, discount) {
